@@ -39,9 +39,9 @@
   "diffTimeout": 50,
   "autoStageOnEmptyIndex": true,
   "hunks": {
-    "showSigns": false,
+    "showSigns": true,
     "hunkCommands": false,
-    "statusBar": "disabled"
+    "statusBar": "colored"
   },
   "lineAuthor": {
     "show": false,

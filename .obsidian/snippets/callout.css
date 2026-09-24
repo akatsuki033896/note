@@ -1,0 +1,33 @@
+/* 基础样式微调，使其更像 GitHub */
+.callout {
+    background-color: transparent !important; /* 背景完全透明 */
+    border: none !important;                  /* 移除原本的四周边框 */
+    border-left: 4px solid var(--callout-color) !important; /* 仅保留左侧 GitHub 风格粗边框 */
+    border-radius: 0px !important;            /* 移除圆角 */
+    padding: 8px 12px !important;             /* 适当紧凑的内边距 */
+    margin: 1em 0;
+}    
+
+/* GitHub 风格的颜色与图标映射 */
+.callout[data-callout="note"] {
+    --callout-color: #0969da; /* 蓝色 */
+}
+.callout[data-callout="tip"] {
+    --callout-color: #1a7f37; /* 绿色 */
+}
+.callout[data-callout="important"] {
+    --callout-color: #8250df; /* 紫色 */
+}
+.callout[data-callout="warning"] {
+    --callout-color: #9a6700; /* 黄色 */
+}
+.callout[data-callout="caution"] {
+    --callout-color: #cf222e; /* 红色 */
+}
+
+/* 改变标题字体权重 */
+.callout-title-inner {
+    font-weight: 600 !important;
+    text-transform: capitalize;
+}
+

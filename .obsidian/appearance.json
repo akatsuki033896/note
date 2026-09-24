@@ -3,5 +3,8 @@
   "textFontFamily": "serif",
   "monospaceFontFamily": "BlexMono Nerd Font",
   "baseFontSize": 18,
-  "cssTheme": ""
+  "cssTheme": "",
+  "enabledCssSnippets": [
+    "callout"
+  ]
 }

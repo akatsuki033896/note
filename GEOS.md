@@ -57,7 +57,7 @@ https://libgeos.org/doxygen/cpp_iface.html
 
 #### 坐标
 
-坐标是GEOS 的最小组成单位，一个坐标用 `Coordinate` 表示，多个坐标用 `CoordinateSequence` / `CoordinateArraySequence` 表示，想要构造点线面就要使用这些坐标。
+坐标是 GEOS 的最小组成单位，一个坐标用 `Coordinate` 表示，多个坐标用 `CoordinateSequence` / `CoordinateArraySequence` 表示，想要构造点线面就要使用这些坐标。
 
 `Coordinate` 作为基类，衍生出 `CoordinateXY`、`CoordinateXYZ`、`CoordinateXYM` 和 `CoordinateXYZM`
 

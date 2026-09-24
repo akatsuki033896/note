@@ -8,34 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "56bb719f6b8105d9",
+            "id": "56d0d67ea4865740",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ABI standablility.md",
+                "file": "链接 part.1：静态链接.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ABI standablility"
+              "title": "链接 part.1：静态链接"
             }
           },
           {
-            "id": "e5448f93fddd7963",
+            "id": "ccbaeaa19a93a2ca",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GIS basic concept.md",
+                "file": "学 C++ 死路一条.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GIS basic concept"
+              "title": "学 C++ 死路一条"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -175,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ABI standablility.md",
+                "file": "学 C++ 死路一条.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -183,14 +184,23 @@
               "icon": "lucide-list",
               "title": "大纲"
             }
+          },
+          {
+            "id": "e2dfe03137802d98",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -201,28 +211,29 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
-      "remotely-save:Remotely Save": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "56bb719f6b8105d9",
+  "active": "ccbaeaa19a93a2ca",
   "lastOpenFiles": [
-    "Compile.md",
-    "MSVC.md",
-    "Pasted image 20260922101208.png",
-    "GEOS.md",
-    "GIS basic concept.md",
-    "未命名.md",
-    "CSAPP7-Linker.md",
-    "ABI standablility.md",
-    "ECDIS/ECDIS-SDK.md",
-    "ECDIS/ECDIS-API.md",
-    "ECDIS/ECDIS deploy issue 09-21.md",
+    "链接 part.1：静态链接.md",
+    "学 C++ 死路一条.md",
     "ECDIS/README.md",
-    "ECDIS/Storage.md",
-    "GIS/S-52 Vector Symbol Description Language.md",
+    "编译原理 part.3：动态链接.md",
+    "编译原理 part.1：编译过程简述.md",
+    "ABI standablility.md",
+    "MSVC.md",
+    "GEOS.md",
     "CMake part.2.md",
     "GIS/Map Protect Plugins API.md",
+    "ATOMIC.md",
+    "ECDIS/ECDIS deploy issue 09-21.md",
+    "ECDIS/ECDIS-SDK.md",
+    "ECDIS/ECDIS-API.md",
+    "GIS basic concept.md",
+    "Pasted image 20260922101208.png",
+    "ECDIS/Storage.md",
+    "GIS/S-52 Vector Symbol Description Language.md",
     "GIS/S52toMapBoxSVG.md",
     "ECDIS/xnFunLib.md",
     "ECDIS/route.md",
@@ -233,7 +244,6 @@
     "ECDIS/xnRouteDesignElement.md",
     "ECDIS/NaviLib.md",
     "Pasted image 20260917144005.png",
-    "ECDIS/20260801 S-100系列数据在ECDIS上的应用.md",
     "ECDIS deploy issue 09-21.md.tmp.22948.74058c6b5cae",
     "image.png",
     "vs-qt-tool.png",
