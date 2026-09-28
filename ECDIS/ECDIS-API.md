@@ -1,3 +1,6 @@
+xnLayerDataWidget 图层数据窗口
+xnChartManageWidget 图层管理窗口
+xnSearchLineEdit 搜索框
 # 经纬度编辑
 
 - [[#`xnLatlon`]]
