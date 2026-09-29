@@ -1,3 +1,7 @@
+---
+tags:
+  - Parallel101
+---
 C++11最重要的特性之一，本质是语法糖，最多的应用是回调函数和Qt的 `connect`
 ## Reference
 

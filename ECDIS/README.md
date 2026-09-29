@@ -87,3 +87,11 @@ else {
 | enc 海图样式（12 个） | `style-enc_plainbnd_*` 和 `style-enc_symbolbnd_*` 的 day/dusk/night 全组合 | 每个文件 5 条：senc_L3-8、senc_L9-13、hdf5_S-102 三个瓦片源（8082）+ sprite + glyphs（8081）   |
 | xn 样式（4 个）     | style-xn_common / style-xn_day / style-xn_dusk / style-xn_night       | 每个文件 5 条：senc_xn_L5-12_13 ×2、senc_xn_patch_L5-12（8082）+ sprite + glyphs（8081） |
 | 用户数据（1 个）      | style-userdata.json                                                   | 6 条全在 8082：Waypoint、Route、Track、PlotPoint、PlotLine、PlotSurface                |
+
+## 翻译
+
+运行时加载编译后的 `i18n/*.qm`, VS 环境下使用 Qt VS Tools 可以自动使用 `lrelease` 生成 `*.qm`，配合生成后事件 xcopy 回 `i18n`，VS 外部生成新的 `.qm`：
+
+```sh
+lrelease i18n/zh_CN.ts
+```

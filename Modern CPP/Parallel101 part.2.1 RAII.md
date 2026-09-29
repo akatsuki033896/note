@@ -127,8 +127,6 @@ struct Circle {
 
 ### `explicit` 关键字在构造函数的作用
 
-#面试常考 
-
 详解：[[explicit关键字]]
 
 #### 单参数构造函数
