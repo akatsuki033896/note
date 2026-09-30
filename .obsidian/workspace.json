@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "506cb4a284cbc072",
+        "id": "e591af05357cad32",
         "type": "tabs",
         "children": [
           {
-            "id": "08e9cdd50bb0ce15",
+            "id": "b0e8c635f5cc7a97",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ECDIS/S-124.md",
-                "mode": "source",
-                "source": false
+                "file": "Head First to Claude Code.md",
+                "mode": "preview",
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "S-124"
+              "title": "Head First to Claude Code"
             }
           }
         ]
@@ -199,19 +199,28 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "08e9cdd50bb0ce15",
+  "active": "b0e8c635f5cc7a97",
   "lastOpenFiles": [
+    "Claude_Code_零基础入门笔记.md",
+    "Clippings/clangd配置文件简介.md",
+    "Head First to Claude Code.md",
+    "CMake part.2.md",
+    "Modern CPP/Parallel101 part.2.1 RAII.md",
+    "GEOS.md",
+    "GIS/S-52 Vector Symbol Description Language.md",
+    "GIS/S52toMapBoxSVG.md",
+    "ECDIS/S-124 航行警告.md",
+    "Clippings",
+    "cvtools.md",
+    "Pasted image 20260922101208.png",
     "VSCode 设置 Shell.md",
     "Welcome.md",
-    "GEOS.md",
     "GIS basic concept.md",
     "Modern CPP/std_optional.md",
-    "ECDIS/S-124.md",
     "Modern CPP/设计模式.md",
     "Modern CPP/面向对象导论.md",
     "C/C pointer declare.md",
     "C/C pointer.md",
-    "Modern CPP/Parallel101 part.2.1 RAII.md",
     "Modern CPP/std_function.md",
     "Modern CPP/std_map.md",
     "Modern CPP/std_set.md",
@@ -220,16 +229,8 @@
     "Modern CPP/std_vector.md",
     "Modern CPP/volatile关键字.md",
     "Modern CPP/const关键字.md",
-    "Modern CPP/explicit关键字.md",
-    "Modern CPP/引用和指针的区别.md",
-    "Modern CPP/自动类型推导.md",
-    "Modern CPP/内存管理八股.md",
-    "Modern CPP/内存存储区域.md",
-    "Modern CPP/面向对象的访问权限和友元.md",
-    "Modern CPP/函数参数传递.md",
     "Compiler",
     "Pasted image 20260928140304.png",
-    "Pasted image 20260922101208.png",
     "_assets/memory_model.png",
     "ARM",
     "Examples",
@@ -244,7 +245,6 @@
     "vs-qt-tool.png",
     "Pasted image 20260917144656.png",
     "Pasted image 20260917144626.png",
-    "GIS",
-    "ECDIS"
+    "GIS"
   ]
 }
