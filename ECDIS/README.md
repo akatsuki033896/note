@@ -95,3 +95,14 @@ else {
 ```sh
 lrelease i18n/zh_CN.ts
 ```
+
+## rk3588 / kubuntu22.04
+
+智能语音文件目前不存在，已注释以下文件
+
+| 文件        | 位置  | 内容                                   |
+| --------- | --- | ------------------------------------ |
+| ECDIS.pri | 371 | ./Common/xnTtsCtrl.h（HEADERS）        |
+| ECDIS.pri | 379 | ./Common/xnTtsCtrl.cpp（SOURCES，报错根源） |
+| ECDIS.pro | 110 | DEFINES += XN_HAS_TTS                |
+| ECDIS.pro | 112 | -ltts（LIBS）                          |
