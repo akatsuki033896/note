@@ -106,3 +106,7 @@ lrelease i18n/zh_CN.ts
 | ECDIS.pri | 379 | ./Common/xnTtsCtrl.cpp（SOURCES，报错根源） |
 | ECDIS.pro | 110 | DEFINES += XN_HAS_TTS                |
 | ECDIS.pro | 112 | -ltts（LIBS）                          |
+
+## 代码编写规范
+
+1. 引用 SDK 的内容要加上 `xnlib::` 命名空间
