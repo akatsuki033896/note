@@ -1,6 +1,7 @@
 ---
 tags:
   - STL
+  - Parallel101
 ---
 > C++ 标准库五大件：容器container / 迭代器iterator / 分配器allocator / 输入输出流stream / 仿函数function / 算法algorithm
 

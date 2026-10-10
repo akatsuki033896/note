@@ -1,3 +1,8 @@
+---
+tags:
+  - STL
+  - Parallel101
+---
 # C 语言的 `char` 类型
 
 C语言只规定了 `unsigned char` 是无符号8位整数，`signed char` 是带符号8位整数
@@ -19,7 +24,7 @@ char s[] = {'s', 't', 'r', '0'};
 
 # `std::string`
 
-```c++
+```cpp
 std::string s = "str";
 string(“hello”) + string(“world”) == string(“helloworld”) 
 ```
@@ -298,7 +303,7 @@ struct vector {
 
  `string` 是掌握着字符串生命周期（lifespan）的胖指针，这种掌管了所指向对象生命周期的指针称为强引用（strong reference）
 
-<img src="/Users/akatsuki/Desktop/Screenshot 2026-08-31 at 20.47.53.png" alt="Screenshot 2026-08-31 at 20.47.53" style="zoom:50%;" />
+![](https://picgocloud.com/m/37767027-c516-4141-97a0-6ddc90d5a37e.png)
 
 强引用指的是：
 
@@ -312,7 +317,7 @@ struct vector {
 - 当 `string_view` 被拷贝时，其指向的字符串仍然是同一个（浅拷贝）
 - 当 `string_view` 被销毁时，其指向的字符串仍存在（弱引用不影响生命周期）
 
-![Screenshot 2026-08-31 at 20.57.24](/Users/akatsuki/Desktop/Screenshot 2026-08-31 at 20.57.24.png)
+![](https://picgocloud.com/m/ffbe3f9e-4bb2-4f1f-8332-d05356cab6fd.png)
 
 图中 `s1` 为 `string`，`sv1` 为 `string_view`，`s2` 是对 `s1` 的深拷贝（调用拷贝构造函数）所以 `s1` 被修改时，`s2` 仍保持旧的值不变。`sv1` 和 `sv2` 都是指向 `s1` 的弱引用，所以 `s1` 被改写时，`sv1` 和 `sv2` 看到的字符串也改写了
 
@@ -393,9 +398,8 @@ https://zhuanlan.zhihu.com/p/427488961
 - 而 `0xCDCD` 在 GBK 编码中就是“屯”，所以如果不小心打印了堆上未初始化的字符串数组，就会看到“屯屯屯”。
 - 现在普遍采用了 UTF-8 格式，虽然 Windows 还在用 UTF-16 和 GBK。
 
-|                    |           |         |        |             |
+| 字符类型               | 字符串类型     | 字符串常量语法 | 大小（字节  | 编码格式        |
 | ------------------ | --------- | ------- | ------ | ----------- |
-| 字符类型               | 字符串类型     | 字符串常量语法 | 大小（字节） | 编码格式        |
 | `char`             | string    | "字符"    | 1      | 随系统默认编码格式而变 |
 | `wchar_t`（Linux）   | wstring   | L"字符"   | 4      | UTF-32      |
 | `wchar_t`（Windows） | wstring   | L"字符"   | 2      | UTF-16      |
