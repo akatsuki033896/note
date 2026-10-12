@@ -11,7 +11,8 @@ tags:
 
 CMake **是一个跨平台的构建系统生成器(Build System Generator)**，它使用 `CMakeLists.txt` 文件来描述项目的构建过程。CMake 可以生成适用于不同平台和编译器的构建文件，如 Makefile、Visual Studio 工程文件等，简化了跨平台开发的复杂性。
 
-<Aside type='caution'>构建系统生成器不等于构建工具！构建工具是更底层的具体程序，而构建系统生成器是管理这些工具的框架。构建工具例如 Ninja, 微软的MSBuild, Qt 的 qmake, 对应构建文件为 `build.ninja`, `.vcxproj`, `.pro`</Aside>
+>[!warning]
+构建系统生成器不等于构建工具！构建工具是更底层的具体程序，而构建系统生成器是管理这些工具的框架。构建工具例如 Ninja, 微软的MSBuild, Qt 的 qmake, 对应构建文件为 `build.ninja`, `.vcxproj`, `.pro`
 
 ## Feature
 
