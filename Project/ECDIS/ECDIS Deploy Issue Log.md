@@ -1,7 +1,8 @@
 ---
 title: Dependency bug
-description: map.lib's symbol does not match includes
+description:
 ---
+# 09-21
 
 ## Symptom
 
@@ -43,3 +44,7 @@ bool GetWaterLevelsInExtent(const GsBBox& extent,
 ## Report Upstream
 
 目前的源代码保留旧 5 参数签名，等 Navilib 更新 map.lib 后再拉取，在这之前不要拉任何东西
+
+# 10-13
+
+`xnLayerDataWidget.cpp` 添加 `NaviWarnData.h` 中不存在的成员，暂时注释

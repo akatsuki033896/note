@@ -1,8 +1,3 @@
----
-banner: "https://image.blocktempo.com/2026/03/Claude-AI.jpg"
-banner_lock: true
----
-# Head First to Claude Code
 
 ## Claude Code 是什么
 
