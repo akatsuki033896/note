@@ -4,53 +4,42 @@
     "type": "split",
     "children": [
       {
-        "id": "db1719732d2e4cf9",
+        "id": "6f90beaefb75cc19",
         "type": "tabs",
         "children": [
           {
-            "id": "749aa7ef9acbee67",
+            "id": "9cd45a03b31dc3e1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "Electric Navigation Chart(ENC).md",
-                "mode": "source",
-                "source": false
+                "file": "Kanban.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false
+                  ]
+                }
               },
-              "icon": "lucide-file",
-              "title": "Electric Navigation Chart(ENC)"
+              "icon": "lucide-trello",
+              "title": "Kanban"
             }
           },
           {
-            "id": "0489b5f7948e5d13",
+            "id": "f8f81518f35aa97e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "SVG.md",
-                "mode": "source",
-                "source": false
+                "file": "Pasted image 20260922101208.png"
               },
-              "icon": "lucide-file",
-              "title": "SVG"
-            }
-          },
-          {
-            "id": "9b68a2742e080451",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git Quick Start.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Git Quick Start"
+              "icon": "lucide-image",
+              "title": "Pasted image 20260922101208"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,7 +111,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 346.8333435058594
+    "width": 346.8333435058594,
+    "collapsed": true
   },
   "right": {
     "id": "889460dc948dc547",
@@ -200,13 +190,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "学 C++ 死路一条.md",
+                "file": "Pasted image 20260922101208.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "Outline"
             }
           },
           {
@@ -240,36 +230,37 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "9b68a2742e080451",
+  "active": "e2dfe03137802d98",
   "lastOpenFiles": [
-    "SVG.md",
     "Git Quick Start.md",
+    "Welcome.md",
+    "VSCode 设置 Shell.md",
+    "Build GDAL on macOS.md",
     "Electric Navigation Chart(ENC).md",
     "Kanban.md",
+    "GDAL",
+    "Pasted image 20260922101208.png",
+    "ABI standablility.md",
     "Project/ECDIS/ECDIS-API.md",
-    "Project/ECDIS/ECDIS-SDK.md",
-    "Project/ECDIS/README.md",
     "Project/ECDIS/xnRouteDesignElement.md",
+    "Project/ECDIS/S-124 航行警告.md",
+    "Project/ECDIS/README.md",
+    "Project/ECDIS/S-124 报警设置.md",
     "Project/ECDIS/ECDIS Deploy Issue Log.md",
+    "Compiler/链接 part.1：静态链接.md",
+    "GIS/GEOS.md",
+    "GIS/GIS basic concept.md",
+    "SVG.md",
+    "S-129 SDK.md",
+    "Project/ECDIS/ECDIS-SDK.md",
     "Project/QGIS Project/S-52 Vector Symbol Description Language.md",
     "Project/QGIS Project/S52toMapBoxSVG.md",
-    "VSCode 设置 Shell.md",
     "Clippings/Hello ClipperLib.md",
-    "Pasted image 20260922101208.png",
     "_assets/function_call_stack.png",
     "Modern CPP/vector的实现.md",
     "Generative Software Engineering/Head First to Claude Code.md",
-    "Project/ECDIS/S-124 报警设置.md",
-    "Project/ECDIS/S-124 航行警告.md",
-    "ABI standablility.md",
-    "GIS/GEOS.md",
     "C/Parallel101 part.12 从计算机组成原理看 C 语言指针.md",
-    "Compiler/链接 part.1：静态链接.md",
     "Compiler/MSVC.md",
-    "Modern CPP/面向对象导论.md",
-    "10.02 TOTALFAT@神戸 太陽と虎 Live Repo.md",
-    "Modern CPP/std_variant.md",
-    "Modern CPP/std_optional.md",
     "Modern CPP/memory_model.png",
     "Project",
     "GIS",
@@ -281,7 +272,6 @@
     "Compiler",
     "Pasted image 20260928140304.png",
     "ARM",
-    "Examples",
     "Pasted image 20260917144005.png",
     "image.png",
     "vs-qt-tool.png",
