@@ -4,42 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "6f90beaefb75cc19",
+        "id": "334bf940004a3338",
         "type": "tabs",
         "children": [
           {
-            "id": "9cd45a03b31dc3e1",
+            "id": "5ed0457aa85dfa19",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "Kanban.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false
-                  ]
-                }
+                "file": "类型转换实践.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-trello",
-              "title": "Kanban"
-            }
-          },
-          {
-            "id": "f8f81518f35aa97e",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Pasted image 20260922101208.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260922101208"
+              "icon": "lucide-file",
+              "title": "类型转换实践"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -111,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 346.8333435058594,
-    "collapsed": true
+    "width": 346.8333435058594
   },
   "right": {
     "id": "889460dc948dc547",
@@ -128,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "QGIS/PyQGIS part.1.md",
+                "file": "类型转换实践.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "Backlinks"
             }
           },
           {
@@ -208,6 +189,18 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "44906b4bda839957",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "类型转换实践.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties"
+            }
           }
         ],
         "currentTab": 5
@@ -232,14 +225,20 @@
   },
   "active": "e2dfe03137802d98",
   "lastOpenFiles": [
-    "Git Quick Start.md",
-    "Welcome.md",
-    "VSCode 设置 Shell.md",
-    "Build GDAL on macOS.md",
-    "Electric Navigation Chart(ENC).md",
-    "Kanban.md",
-    "GDAL",
+    "Effective C++ TLDR;.md",
+    "Modern CPP/static关键字.md",
+    "Clippings/clangd配置文件简介.md",
+    "类型转换实践.md",
+    "SVG.md",
     "Pasted image 20260922101208.png",
+    "Electric Navigation Chart(ENC).md",
+    "CMake part.2.md",
+    "GIS/Build GDAL on macOS.md",
+    "Kanban.md",
+    "Git Quick Start.md",
+    "VSCode 设置 Shell.md",
+    "Welcome.md",
+    "GDAL",
     "ABI standablility.md",
     "Project/ECDIS/ECDIS-API.md",
     "Project/ECDIS/xnRouteDesignElement.md",
@@ -250,17 +249,11 @@
     "Compiler/链接 part.1：静态链接.md",
     "GIS/GEOS.md",
     "GIS/GIS basic concept.md",
-    "SVG.md",
     "S-129 SDK.md",
     "Project/ECDIS/ECDIS-SDK.md",
     "Project/QGIS Project/S-52 Vector Symbol Description Language.md",
     "Project/QGIS Project/S52toMapBoxSVG.md",
-    "Clippings/Hello ClipperLib.md",
     "_assets/function_call_stack.png",
-    "Modern CPP/vector的实现.md",
-    "Generative Software Engineering/Head First to Claude Code.md",
-    "C/Parallel101 part.12 从计算机组成原理看 C 语言指针.md",
-    "Compiler/MSVC.md",
     "Modern CPP/memory_model.png",
     "Project",
     "GIS",
